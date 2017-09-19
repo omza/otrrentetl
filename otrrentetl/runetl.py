@@ -58,7 +58,7 @@ def main():
 
                 iterdate = iterdate + timedelta(days=1)
 
-            #update_toprecordings()
+            update_toprecordings()
 
             update_torrents(startdate)
             

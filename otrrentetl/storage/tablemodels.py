@@ -58,8 +58,6 @@ class Recording(StorageTableModel):
     rating = ''
     previewimagelink = ''
     _Torrents = []
-    test = EntityProperty(EdmType.STRING,'',True)
-    test = EntityProperty(EdmType.DATETIME,
 
     def loadtorrents(self):
         """ set filter conditions """

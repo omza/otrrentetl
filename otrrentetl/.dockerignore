@@ -1,0 +1,28 @@
+## Ignore all files and subfolders
+
+*
+*/
+
+## Exceptions
+
+!runetl.py
+!Dockerfile
+!.dockerignore
+!requirements.txt
+
+## Exceptions otrrentserver subfolder
+
+!config/
+!config/*
+
+!config/application/
+!config/application/*
+
+!storage/
+!storage/*
+
+!server/
+!server/*
+
+## Exceptions secrets subfolder
+config/secrets/
