@@ -1,6 +1,13 @@
 FROM python:3.6-alpine
 MAINTAINER oliver@app-workshop.de
 
+
+# Build essentials
+# ---------------------------------------------------------
+RUN apk update && \
+    apk upgrade && \
+    apk add -u build-base openssl-dev libffi-dev
+
 # ARGs & ENVs
 # -------------------------------------------------------
 ENV APPLICATION_ENVIRONMENT Test
@@ -18,8 +25,6 @@ COPY . /usr/src/etl
 VOLUME /usr/src/etl/
 VOLUME /usr/log/
 VOLUME /usr/src/etl/config/secrets/
-
-
 
 # Install requirements
 # ----------------------------------------------------------
