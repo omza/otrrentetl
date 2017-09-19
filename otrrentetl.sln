@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "otrrentetl", "otrrentetl\otrrentetl.pyproj", "{61F240CD-7499-4A14-B57D-96FEF13B8892}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61F240CD-7499-4A14-B57D-96FEF13B8892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F240CD-7499-4A14-B57D-96FEF13B8892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECB77692-2607-49BD-8BB5-10ADC6E800D2}
+	EndGlobalSection
+EndGlobal
