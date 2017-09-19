@@ -3,13 +3,13 @@ MAINTAINER oliver@app-workshop.de
 
 # ARGs & ENVs
 # -------------------------------------------------------
-ENV DIBOARDS_VERSION v0.1
+ENV APPLICATION_ENVIRONMENT Test
 
 # dirs & volumes
 # --------------------------------------------------------
 RUN mkdir -p /usr/src/etl \
 	&& mkdir -p /usr/log \
-	&& mkdir -p /secrets
+	&& mkdir -p /usr/src/etl/config/secrets/
 
 WORKDIR /usr/src/etl
 
