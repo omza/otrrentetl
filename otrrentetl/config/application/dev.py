@@ -12,7 +12,7 @@ RESTPLUS_ERROR_404_HELP = True
 BUNDLE_ERRORS = True
 
 # ottrent settings
-APPLICATION_PATH_LOG = 'C:/Users/omza/source/repos/otrrentserver/'
+APPLICATION_PATH_LOG = 'C:/Users/omza/source/repos/otrrentetl/'
 APPLICATION_LOGLEVEL_CONSOLE = 10 # debug 
 APPLICATION_LOGLEVEL_FILE = 10 # debug
 APPLICATION_LOG_LEVEL = 10 # Debug

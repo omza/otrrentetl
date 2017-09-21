@@ -55,7 +55,7 @@ consolehandler = logging.StreamHandler(stdout)
 consolehandler.setFormatter(formatter)
 consolehandler.setLevel(config['APPLICATION_LOGLEVEL_CONSOLE'])
     
-logfilename = os.path.join(config['APPLICATION_PATH_LOG'], 'otrrentserver.log')
+logfilename = os.path.join(config['APPLICATION_PATH_LOG'], 'otrrentetl.log')
 filehandler = logging.handlers.RotatingFileHandler(logfilename, 10240, 5)
 filehandler.setFormatter(formatter)
 filehandler.setLevel(config['APPLICATION_LOGLEVEL_FILE'])
