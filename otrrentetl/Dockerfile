@@ -1,7 +1,6 @@
 FROM python:3.6-alpine
 MAINTAINER oliver@app-workshop.de
-
-
+ 
 # Build essentials
 # ---------------------------------------------------------
 RUN apk update && \
