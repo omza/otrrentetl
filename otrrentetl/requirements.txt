@@ -20,6 +20,6 @@ python-dateutil==2.6.1
 python-editor==1.0.3
 pytz==2017.2
 requests==2.18.4
-setuptools==36.4.0
+setuptools==65.5.1
 six==1.10.0
 urllib3==1.24.2
